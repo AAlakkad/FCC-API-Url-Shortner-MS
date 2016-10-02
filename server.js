@@ -6,10 +6,11 @@ const monk = require('monk');
 
 const db = monk(process.env.MONGO_URI);
 const collection = db.get('document');
+const port = process.env.PORT || 3000;
 var appUrl = '';
 
 db.then(() => {
-  console.log('Connected correctly to server');=
+  console.log('Connected correctly to server');
 });
 
 app.use(function(req, res, next) {
@@ -84,6 +85,8 @@ app.get('/:id', function(req, res) {
   });
 });
 
-app.listen(3000, function() {
-  console.log('URL Shortner app listening on port 3000!');
+
+
+app.listen(port, function() {
+  console.log(`URL Shortner app listening on port ${port}!`);
 });

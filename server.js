@@ -19,7 +19,7 @@ app.use(function(req, res, next) {
 });
 
 app.get('/', function(req, res) {
-  res.send('Please refer to the docs: https://github.com/AAlakkad/FCC-API-Url-Shortner-MS');
+  res.send('Please refer to the docs: <a href="https://github.com/AAlakkad/FCC-API-Url-Shortner-MS">https://github.com/AAlakkad/FCC-API-Url-Shortner-MS</a>');
 });
 
 app.get('/new', function(req, res) {

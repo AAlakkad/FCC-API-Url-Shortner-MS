@@ -13,7 +13,7 @@ Visting [https://aalakkad-api-url-shortner.herokuapp.com/new/http://freecodecamp
 
 ```json
 {
-	original_url: "http://freecodecamp.com",
-	short_url: "http://aalakkad-api-url-shortner.herokuapp.com/4"
+	"original_url": "http://freecodecamp.com",
+	"short_url": "http://aalakkad-api-url-shortner.herokuapp.com/4"
 }
 ```
